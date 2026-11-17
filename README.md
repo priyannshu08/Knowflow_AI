@@ -30,8 +30,8 @@ User question -> Hybrid retrieval -> Evidence checks -> Local model selection
 ```
 
 The current application selects documentation excerpts; it does not generate
-new code. Copying source material and validating citations do not guarantee that
-an answer is relevant, and valid questions may still be refused.
+new code. Responses preserve source excerpts and citations; examples should be
+reviewed for relevance before use. Valid questions may still be refused.
 
 **Core stack:** Python 3.11, Gradio, ChromaDB, BM25, BGE embeddings,
 Qwen2.5-1.5B-Instruct (Q4_K_M), and llama-cpp-python.
@@ -76,10 +76,9 @@ See the [setup and training checklist](MANUAL_CHECKLIST.md) for detailed procedu
 The local application is implemented. As of November 17, 2026:
 
 - The compatible dataset contains **161 AI-reviewed examples**: 154 training
-  and 7 validation examples. These are not human-approved annotations.
-- A small Kaggle QLoRA smoke run completed; full fine-tuning remains pending.
-- Full answer-quality evaluation is incomplete. No improvement from fine-tuning
-  is claimed.
+  and 7 validation examples. Human validation has not yet been completed.
+- The QLoRA pipeline has completed smoke testing; full training and comparative
+  evaluation remain pending.
 
 ## Project Structure
 
