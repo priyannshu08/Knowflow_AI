@@ -1,0 +1,15 @@
+# Candidate pins: wheel resolution and runtime tests are recorded in TEST_REPORT.md.
+torch==2.6.0
+numpy==1.26.4
+transformers==4.51.3
+sentence-transformers==4.1.0
+chromadb==1.0.9
+posthog==3.25.0
+rank-bm25==0.2.2
+huggingface-hub==0.30.2
+gradio==5.29.0
+httpx==0.28.1
+python-dotenv==1.1.0
+Markdown==3.8
+beautifulsoup4==4.13.4
+pytest==8.3.5
