@@ -1,0 +1,27 @@
+
+# Local environments and secrets
+.venv/
+venv/
+.env*
+*.pem
+*.key
+
+# Generated data, models and caches
+data/
+models/
+outputs/
+artifacts/
+.cache/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyc
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.zip
+*.log
+
+/README_ARCHIVE.md
