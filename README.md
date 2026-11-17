@@ -59,7 +59,11 @@ Launch the base-model application from **Git Bash**:
 USE_FINETUNED_MODEL=false GRADIO_SERVER_NAME=127.0.0.1 PORT=7861 GRADIO_ANALYTICS_ENABLED=False python -m app.app
 ```
 
-Open **http://127.0.0.1:7861**. Try:
+After the application starts, open **http://127.0.0.1:7861** in your browser.
+This address is local to the computer running the app; it is not a hosted demo.
+Keep the terminal running while using the app.
+
+Example question:
 
 > How do I declare a reusable dependency in FastAPI?
 
